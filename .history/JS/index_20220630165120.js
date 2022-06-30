@@ -103,21 +103,17 @@
 
             for (let i = 0; i < navbarCli.length; i++) {
                 navbarCli[i].onclick = function () {
-                    setTimeout(() => {
-                        window.removeEventListener("scroll", scrollHide);
-                        isHide.classList.add('showAndHide');
-                        foldBtn.classList.remove('show');
-                    }, 100);
+                    window.removeEventListener("scroll", scrollHide);
+                    isHide.classList.add('showAndHide');
+                    foldBtn.classList.remove('show');
                     setTimeout(() => {
                         window.addEventListener("scroll", scrollHide);
                     }, 800);
                 };
                 navbarCli[i].addEventListener("touchend", function(){
-                    setTimeout(() => {
-                        window.removeEventListener("scroll", scrollHide);
-                        isHide.classList.add('showAndHide');
-                        foldBtn.classList.remove('show');
-                    }, 100)
+                    window.removeEventListener("scroll", scrollHide);
+                    isHide.classList.add('showAndHide');
+                    foldBtn.classList.remove('show');
                     setTimeout(() => {
                         window.addEventListener("scroll", scrollHide);
                     }, 800);

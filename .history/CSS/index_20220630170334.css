@@ -1,0 +1,69 @@
+.navbarBg{
+    background-color: #161d27;
+}
+.img-QQ{
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    left: -73px;
+    top: 25px;
+    display: none;
+}
+.img-WX{
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    left: -73px;
+    top: 25px;
+    display: none;
+}
+.img-QQ.d-show{
+    display: block;
+}
+.img-WX.d-show{
+    display: block;
+}
+.bannerImg img{
+    box-shadow: -10px 10px 0px #a19975;
+}
+.blog-text-title{
+    color: black;
+}
+.blog-text:hover .blog-text-title{
+    color: blue;
+}
+.blog-text p{
+    color: #000;
+}
+.blog-text:hover p{
+    color: blue;
+}
+.navtab-text a{
+    color: #000;
+}
+.alertNode{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .7);
+    z-index: 999;
+}
+.alertNode .good{
+    cursor: pointer;
+    font-size: 0.3rem;
+}
+.alertNode .cancel{
+    cursor: pointer;
+}
+.navbarControl{
+    transition: .3s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.navbarControl.showAndHide{
+    top: -56px;
+}

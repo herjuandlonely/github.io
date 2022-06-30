@@ -105,8 +105,8 @@
                 navbarCli[i].onclick = function () {
                     setTimeout(() => {
                         window.removeEventListener("scroll", scrollHide);
-                        isHide.classList.add('showAndHide');
-                        foldBtn.classList.remove('show');
+                    isHide.classList.add('showAndHide');
+                    foldBtn.classList.remove('show');
                     }, 100);
                     setTimeout(() => {
                         window.addEventListener("scroll", scrollHide);
