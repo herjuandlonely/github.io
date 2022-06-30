@@ -70,15 +70,15 @@
             good.onclick = () => {
                 alertAll.classList.remove('d-none');
             };
-            good.addEventListener('touchend', function(){
+            good.ontouchend = () => {
                 alertAll.classList.remove('d-none');
-            });
+            };
             cancel.onclick = () => {
                 alertAll.classList.remove('d-none');
             };
-            cancel.addEventListener('touchend', function(){
+            cancel.ontouchend = () => {
                 alertAll.classList.remove('d-none');
-            });
+            };
         },
         "isHide": function () {
             let oldScrollTop = 0;
@@ -110,7 +110,7 @@
                         window.addEventListener("scroll", scrollHide);
                     }, 800)
                 };
-                navbarCli[i].ontouchend = function () {
+                navbarCli[i].ontouchstart = function () {
                     window.removeEventListener("scroll", scrollHide);
                     isHide.classList.add('showAndHide');
                     foldBtn.classList.remove('show');

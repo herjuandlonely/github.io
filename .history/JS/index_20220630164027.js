@@ -110,7 +110,7 @@
                         window.addEventListener("scroll", scrollHide);
                     }, 800)
                 };
-                navbarCli[i].ontouchend = function () {
+                navbarCli[i].ontouchstart = function () {
                     window.removeEventListener("scroll", scrollHide);
                     isHide.classList.add('showAndHide');
                     foldBtn.classList.remove('show');
