@@ -97,7 +97,7 @@
                     isHide.classList.add('showAndHide');
                     foldBtn.classList.remove('show');
                 };
-                if (banner.scrollTop > 0) {
+                if (isHide.scrollTop > 0) {
                     isHide.classList.remove('showAndHide');
                 }
             }
