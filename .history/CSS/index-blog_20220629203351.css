@@ -1,0 +1,28 @@
+.navbarControl{
+    transition: .3s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.navbarControl.showAndHide{
+    top: -56px;
+}
+.navbarControl a{
+    cursor: pointer;
+}
+.navbarBg{
+    background-color: #161d27;
+}
+.banner{
+    background: url(../image/overlay-bg.jpg) no-repeat center -180px;
+    height: 356px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.mbShit{
+    --bs-breadcrumb-divider:'>';
+}
+.mbShit .breadcrumb-item::before{
+    color: #f8f9fa !important; 
+}

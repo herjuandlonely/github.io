@@ -1,0 +1,9 @@
+.navbarBg{
+    background-color: #161d27;
+}
+.banner{
+    background: url(../image/overlay-bg.jpg) no-repeat center center;
+    height: 100px;
+    background-attachment: fixed;
+    background-size: cover;
+}

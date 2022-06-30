@@ -1,0 +1,13 @@
+.navbarControl a{
+    cursor: pointer;
+}
+.navbarBg{
+    background-color: #161d27;
+}
+.banner{
+    background: url(../image/overlay-bg.jpg) no-repeat;
+    height: 300px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
