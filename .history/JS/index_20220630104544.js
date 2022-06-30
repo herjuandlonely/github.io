@@ -78,8 +78,6 @@
             let oldScrollTop = 0;
             let isHide = this.$('.navbarControl')[0];
             const navbarCli = this.$('.navbarCli')[0].children;
-            
-
 
             function scrollHide () {
                 let scrollTop = window.pageYOffset || this.document.documentElement.scrollTop || this.document.body.scrollTop;
@@ -104,7 +102,7 @@
                         window.addEventListener("scroll", scrollHide);
                     }, 800)
                 };
-                navbarCli[i].ontouchstart = function () {
+                navbarCli[i].ontouchend = function () {
                     window.removeEventListener("scroll", scrollHide);
                     isHide.classList.add('showAndHide');
                     foldBtn.classList.remove('show');
