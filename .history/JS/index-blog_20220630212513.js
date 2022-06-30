@@ -20,9 +20,7 @@
                     foldBtn.classList.remove('show');
                 }
             };
-            if (banner.scrollTop > 0) {
-                isHide.classList.remove('showAndHide');
-            }
+            
 
             window.addEventListener("scroll", scrollHide);
 
