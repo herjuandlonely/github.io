@@ -27,13 +27,8 @@
     color: #f8f9fa !important; 
 }
 .textUl{
-    overflow: hidden;  /* 溢出隐藏 */
-    white-space: nowrap;  /* 不允许换行 */
-    text-overflow: ellipsis;  /* 换成... */
-}
-.title-ul > li a{
-    color: black;
-}
-.title-ul > li:hover a{
-    color: #0A53BE;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
 }

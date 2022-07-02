@@ -25,15 +25,10 @@
 }
 .mbShit ol .breadcrumb-item::before{
     color: #f8f9fa !important; 
+    white-space;
 }
 .textUl{
     overflow: hidden;  /* 溢出隐藏 */
     white-space: nowrap;  /* 不允许换行 */
     text-overflow: ellipsis;  /* 换成... */
-}
-.title-ul > li a{
-    color: black;
-}
-.title-ul > li:hover a{
-    color: #0A53BE;
 }
